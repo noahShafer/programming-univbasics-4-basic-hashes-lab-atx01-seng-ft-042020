@@ -3,7 +3,9 @@ def new_hash
 end
 
 def my_hash
-  Hash.new
+  return {
+    :name => "Grace Hopper"
+  }
 end
 
 def pioneer
